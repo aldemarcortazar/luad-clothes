@@ -213,10 +213,16 @@ body{
 
 .footer-contact__submit{
     background-color: var(--orange-primary);
-    padding: .5rem 0;
+    padding: .8rem 0;
     border: none;
     color: #ffffff;
     border-radius: .3rem;
+    transition: all .1s  ease-in;
+    cursor: pointer;
+}
+
+.footer-contact__submit:hover{
+    background-color: rgba(255, 177, 128, 1);
 }
 
 @media screen and (min-width: 576px){
@@ -257,8 +263,13 @@ body{
     }
     .footer{
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        padding: 3rem 10rem;
         align-items: flex-start;
+    }
+
+    .footer-contact__form-title{
+        margin-top: 0;
     }
 
     .footer__section-nav{
