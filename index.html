@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -108,66 +108,22 @@
     <main class="main">
         <h1 class="main__title">TIENDA</h1>
 
-        <div class="products">
-            <div class="products__card">
-                <figure class="products__card-figure">
-                    <img 
-                        class="products__card-img"
-                        src="https://static.wixstatic.com/media/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_199,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg" 
-                        alt="product"
-                    >
-                </figure>
-                <h4 class="products__card-name">Soy un producto</h4>
-                <p class="products__card-price">$ 25.000</p>
-            </div>
+        <div class="products" id="products">
+            <template id="template-card">
+                <div class="products__card">
+                    <div class="product__card-tag">
+                        <p class="product__card-tag__text"></p>
+                    </div>
+                    <figure class="products__card-figure">
+                        <img 
+                            class="products__card-img" 
+                        >
+                    </figure>
+                    <h4 class="products__card-name"></h4>
+                    <p class="products__card-price"></p>
+                </div>
+            </template>
 
-            <div class="products__card">
-                <figure class="products__card-figure">
-                    <img 
-                        class="products__card-img"
-                        src="https://static.wixstatic.com/media/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_199,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg" 
-                        alt="product"
-                    >
-                </figure>
-                <h4 class="products__card-name">Soy un producto</h4>
-                <p class="products__card-price">$ 25.000</p>
-            </div>
-
-            <div class="products__card">
-                <figure class="products__card-figure">
-                    <img 
-                        class="products__card-img"
-                        src="https://static.wixstatic.com/media/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_199,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg" 
-                        alt="product"
-                    >
-                </figure>
-                <h4 class="products__card-name">Soy un producto</h4>
-                <p class="products__card-price">$ 25.000</p>
-            </div>
-
-            <div class="products__card">
-                <figure class="products__card-figure">
-                    <img 
-                        class="products__card-img"
-                        src="https://static.wixstatic.com/media/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_199,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg" 
-                        alt="product"
-                    >
-                </figure>
-                <h4 class="products__card-name">Soy un producto</h4>
-                <p class="products__card-price">$ 25.000</p>
-            </div>
-
-            <div class="products__card">
-                <figure class="products__card-figure">
-                    <img 
-                        class="products__card-img"
-                        src="https://static.wixstatic.com/media/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_199,h_265,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ea71bb_c5cb5934d83140c78817650fda2e2ca2~mv2_d_3664_4866_s_4_2.jpg" 
-                        alt="product"
-                    >
-                </figure>
-                <h4 class="products__card-name">Soy un producto</h4>
-                <p class="products__card-price">$ 25.000</p>
-            </div>
         </div>
     </main>
 

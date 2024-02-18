@@ -148,6 +148,21 @@ body{
     margin-top: 3rem;
 }
 
+.products__card{
+    position: relative;
+}
+
+.product__card-tag{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .4rem;
+}
+
+.product__card-tag__text{
+    margin: 0;
+}
+
 .products__card-figure{
     margin: 0;
 }
@@ -219,6 +234,11 @@ body{
     border-radius: .3rem;
     transition: all .1s  ease-in;
     cursor: pointer;
+}
+
+.product__card-tag{
+    background-color: var(--orange-primary);
+    color: #ffffff;
 }
 
 .footer-contact__submit:hover{
